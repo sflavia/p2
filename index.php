@@ -3,7 +3,7 @@
 <head lang="en">
 	<meta charset="UTF-8">
 
-	<title>DWA15- - P2</title>
+	<title>P2</title>
 
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
