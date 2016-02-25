@@ -34,11 +34,6 @@
 
 	 $maxLength = 999; //default maximum length of password
 
-	//allow user to specify max length for password
-//	if (isset($_GET["maxLength"]) && $_GET["maxLength"] !== "")
-//		$maxLength = (int)htmlspecialchars($_GET["maxLength"]);
-
-	//Set maxLength parameter
 	$_GET["maxLength"] = (string)$maxLength;
 
 	do {
