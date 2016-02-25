@@ -13,9 +13,21 @@
 	fclose($file);
 
 	$spacer = "-"; // hyphen is the default spacer
-
+  $error = "Please enter amount of words";
 	//allow user to choose word spacer
-	if (isset($_GET["spacer"]))
+  if (isset($_GET["numWords"]) && $_GET["numWords"] == "")
+		{
+			 echo $error;
+
+		}
+
+	if (isset($_GET["numWords"]) && $_GET["numWords"] == "0")
+		{
+			echo  $error;
+
+		}
+
+  if (isset($_GET["spacer"]))
 		$spacer = $_GET["spacer"];
 
 	//Set spacer parameter
